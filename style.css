@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: sans-serif;
+    background: rgb(42, 42, 42);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#cont {
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(245, 137, 36);
+    margin-top: 30px;
+    background: #000;
+}
+
+#player {
+    background: rgb(255, 0, 0);
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+#score {
+    color: #fff;
+    font-size: 19px;
+}
+
+#timer {
+    color: #fff;
+}
+
+#easy-mode {
+    color: #fff;
+    background: rgb(51, 255, 0);
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    top: 30px;
+    transition: .3s;
+    border: 2px solid rgb(51, 255, 0);
+}
+
+#easy-mode:hover {
+    background: transparent;
+    border: 2px solid rgb(51, 255, 0);
+}
+
+#easy-mode button {
+    background: transparent;
+    border: rgb(51, 255, 0);
+    font-size: 18px;
+    color: #fff;
+}
+
+#easy-normal {
+    color: #fff;
+    background: rgb(255, 187, 0);
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    top: 90px;
+    transition: .3s;
+    border: 2px solid rgb(255, 187, 0);
+}
+
+#easy-normal:hover {
+    background: transparent;
+    border: 2px solid rgb(255, 187, 0);
+}
+
+#easy-normal button {
+    background: transparent;
+    border: rgb(255, 187, 0);
+    font-size: 18px;
+    color: #fff;
+}
+
+#easy-hard {
+    color: #fff;
+    background: rgb(255, 0, 0);
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    top: 150px;
+    transition: .3s;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#easy-hard:hover {
+    background: transparent;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#easy-hard button {
+    background: transparent;
+    border: rgb(255, 0, 0);
+    font-size: 18px;
+    color: #fff;
+}
+
+                   /* Coins |
+                            \ /    */
+#coins-wrapper {
+    position: absolute;
+    right: 15px;
+    width: 50px;
+    height: 35px;
+    background: rgb(255, 187, 0);
+    top: 30px;
+    border: 2px solid rgb(255, 187, 0);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#coins {
+    background: #fff;
+    width: 40px;
+    height: 25px;
+    position: absolute;
+    /* border: .1px solid #fff; */
+    /* right: .1px; */
+    /* top: 2px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
